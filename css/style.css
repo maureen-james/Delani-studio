@@ -19,6 +19,7 @@
 .section3{
     background-image: url(/images/backgrounds/s_image.jpg);
     text-align: center;
+    color: white;
 }
 .section4{
     text-align: center;
@@ -26,4 +27,3 @@
 .threeimages{
     display: flex;
 }
-
