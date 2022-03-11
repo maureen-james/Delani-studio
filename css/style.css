@@ -1,0 +1,15 @@
+.section1{
+    background-image: url(/images/backgrounds/h_img.jpg);
+    background-attachment: fixed;
+   
+}
+.a{
+    align-items: center;
+    color: white;
+    padding-left: 880px;
+    padding-top: 400px;
+    padding-bottom: 300px;
+}
+.img1{
+    padding-top: 200px;
+}
