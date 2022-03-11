@@ -24,7 +24,16 @@
 }
 .section4{
     text-align: center;
+    margin: 50px;
 }
 .threeimages{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.section5{
+    text-align: center;
+}
+.firstline{
     display: flex;
 }
