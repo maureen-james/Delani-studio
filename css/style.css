@@ -33,7 +33,37 @@
 }
 .section5{
     text-align: center;
+    margin-right: 5px;
+   
 }
 .firstline{
     display: flex;
+}
+.imga{
+   padding-right: 10px;
+}
+.imgb{
+    padding-right: 10px;
+}
+.imgc{
+    padding-right: 10px;
+}
+.imgd{
+    padding-right: 20px;
+}
+.secondline{
+    display: flex;
+    padding-top: 50px;
+}
+.imge{
+    padding-right: 10px;
+}
+.imgf{
+    padding-right: 10px;
+}
+.imgg{
+    padding-right: 10px;
+}
+.imgh{
+    padding-right: 20px;
 }
