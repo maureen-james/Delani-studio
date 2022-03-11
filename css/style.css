@@ -72,8 +72,22 @@
     background-image: url(/images/backgrounds/c_image.jpg);
     color: white;
     text-align: center;
-    padding-bottom: 50%;
+    padding-bottom: 20%;
     padding-top: 25px;
+}
+.forms{
+    padding-top: 25px;
+    border-radius: 1px solid white;
+}
+#name{
+    background-color: transparent;
+    color: whitesmoke;
+}
+#email{
+    background-color: transparent;
+}
+#message{
+    background-color: transparent;
 }
 .section7{
     padding-left: 450px;
