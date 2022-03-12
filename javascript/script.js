@@ -1,0 +1,37 @@
+$(document).ready(function(){
+    $(".design-image").click(function(){
+      $(".design-image").hide(500);
+      $(".design").toggle(500);
+      $(".design").show(500);
+    })
+    $(".design").click(function(){
+      $(".design").hide(500);
+      $(".design-image").toggle(500);
+      $(".design-image").show(500);
+    });
+  });
+$(document).ready(function(){
+    $(".development-image").click(function(){
+      $(".development-image").hide(500);
+      $(".development").toggle(500);
+      $(".development").show(500);
+    })
+    $(".development").click(function(){
+      $(".development").hide(500);
+      $(".development-image").toggle(500);
+      $(".development-image").show(500);
+    });
+});
+$(document).ready(function(){
+    $(".product-image").click(function(){
+      $(".product-image").hide(500);
+      $(".product").toggle(500);
+      $(".product").show(500);
+    })
+    $(".product").click(function(){
+      $(".product").hide(500);
+      $(".product-image").toggle(500);
+      $(".product-image").show(500);
+    });
+});
+

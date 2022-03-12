@@ -3,17 +3,24 @@
     padding: 0px;
     margin: 0px;
 }
-body{
-
+.col-md-12{
+    padding-left: 0px ;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .section1{
     background-image: url(/images/backgrounds/h_img.jpg);
     background-attachment: fixed;
-    /* background-size: cover; */
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    padding-left: 0px ;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
    
 }
 .a{
@@ -23,8 +30,9 @@ body{
     padding-top: 400px;
     padding-bottom: 300px;
 }
-.img1{
-    padding-top: 200px;
+#mouse-click{
+    padding-top: 130px;
+    animation: bounce 2s infinite;
 }
 .section2{
     text-align: center;
@@ -43,42 +51,71 @@ body{
     display: flex;
     padding: 50px;
 }
+.design{
+    display: none;
+}
+.development{
+    display: none;
+}
+.product {
+    display: none;
+}
 .section5{
     text-align: center;
-    margin-right: 5px;
-    margin-left: 100px;
+    margin: 30px auto;
+   
    
 }
 .firstline{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .imga{
    padding-right: 10px;
+   width: 250px;
+   height: 250px;
 }
 .imgb{
     padding-right: 10px;
+    width: 250px;
+   height: 250px;
 }
 .imgc{
     padding-right: 10px;
+    width: 250px;
+   height: 250px;
 }
 .imgd{
     padding-right: 20px;
+    width: 250px;
+   height: 250px;
 }
 .secondline{
+    flex-wrap: wrap;
+    justify-content: center;
     display: flex;
     padding-top: 50px;
 }
 .imge{
     padding-right: 10px;
+    width: 250px;
+   height: 250px;
 }
 .imgf{
     padding-right: 10px;
+    width: 250px;
+   height: 250px;
 }
 .imgg{
     padding-right: 10px;
+    width: 250px;
+   height: 250px;
 }
 .imgh{
     padding-right: 20px;
+    width: 250px;
+   height: 250px;
 }
 .section6{
     margin: 50px;
