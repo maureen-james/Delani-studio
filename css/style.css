@@ -6,12 +6,12 @@
     font-family: 'PT Serif', serif;
     font-size: 25px;
 }
-.col-md-12{
+/* .col-md-12{
     padding-left: 0px ;
     padding-right: 0px;
     margin-left: 0px;
     margin-right: 0px;
-}
+} */
 
 .section1{
     background-image: url(/images/backgrounds/h_img.jpg);
@@ -75,28 +75,41 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.text{
+    background-color: rgb(192, 189, 194);
+    height: 100%;
+    width: 250px;
+}
 .imga{
+    background-image: url(/images/portfolio/work4.jpg);
    padding-right: 10px;
    width: 250px;
    height: 250px;
 }
 .imgb{
+    background-image: url(/images/portfolio/work3.jpg);
     padding-right: 10px;
     width: 250px;
    height: 250px;
+  
 }
 .imgc{
+    background-image: url(/images/portfolio/work2.jpg);
     padding-right: 10px;
     width: 250px;
    height: 250px;
 }
 .imgd{
+    background-image: url(/images/portfolio/work1.jpg);
     padding-right: 20px;
     width: 250px;
    height: 250px;
 }
 #cover1  #cover2 #cover3 #cover4 #cover5 #cover6 #cover7 #cover8{
     display: none;
+}
+#portfolio.row{
+    padding-right: 10px;
 }
 .secondline{
     flex-wrap: wrap;
@@ -105,21 +118,25 @@
     padding-top: 50px;
 }
 .imge{
-    padding-right: 10px;
+    background-image: url(/images/portfolio/work5.jpg);
+    
     width: 250px;
    height: 250px;
 }
 .imgf{
+    background-image: url(/images/portfolio/work6.jpg);
     padding-right: 10px;
     width: 250px;
    height: 250px;
 }
 .imgg{
+    background-image: url(/images/portfolio/work7.jpg);
     padding-right: 10px;
     width: 250px;
    height: 250px;
 }
 .imgh{
+    background-image: url(/images/portfolio/work8.jpg);
     padding-right: 20px;
     width: 250px;
    height: 250px;
@@ -135,8 +152,6 @@
 }
 .forms{
     padding-top: 25px;
-    
-    
 }
 #name{
     background-color: transparent;
@@ -158,9 +173,62 @@
     border-style: solid;
     border-color: white;
 }
+
 .section7{
     padding-left: 500px;
 }
 .delani{
     text-align: center;
 }
+/* media responsiveness */
+/* extra large => 1200px */
+@media(max-width: 1399px){
+#portfolio.row{
+    width: 235px;
+}
+.section7{
+    padding-left: 350px; 
+}
+}
+@media(min-width: 1200px){
+.a{
+    padding: 350px 0px 250px 300px;
+}
+}
+/* large screen */
+@media(max-width: 960px){
+.a{
+    padding: 250px 0px 150px 200px;
+}
+.section7{
+    padding-left: 80px;
+}
+}
+/* medium and small screen */
+@media(max-width: 720px){
+    .a{
+        padding: 200px 0px 100px 100px;
+    }
+    .threeimages{
+        flex-direction: column;
+    }
+    .firstline{
+        flex-direction: column;
+        align-items: center;
+    }
+    .secondline{
+        flex-direction: column;
+        align-items: center;
+    }
+    .imga .imgb .imgc .imgd .imge .imgf .imgh{
+        padding-top: 10px;
+    }
+    .section6{
+        align-items: center;
+    }
+}
+
+
+
+
+
