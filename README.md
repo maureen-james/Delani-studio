@@ -13,7 +13,6 @@
 
 ## Description
 <p>This is  a website that shows a landing page for a fictional studio </p>
-# ![Image](/images/%20Delani%20Studio.jpg)
 
 ## Installation
 
