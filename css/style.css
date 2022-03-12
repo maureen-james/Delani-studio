@@ -14,7 +14,7 @@
 } */
 
 .section1{
-    background-image: url(/images/backgrounds/h_img.jpg);
+    background-image: url(./images/backgrounds/h_img.jpg);
     background-attachment: fixed;
 }
 .a{
@@ -42,7 +42,7 @@
     text-align: center;
 }
 .section3{
-    background-image: url(/images/backgrounds/s_image.jpg);
+    background-image: url(./images/backgrounds/s_image.jpg);
     text-align: center;
     color: white;
     padding: 135px 0px 180px 0px;
@@ -81,26 +81,26 @@
     width: 250px;
 }
 .imga{
-    background-image: url(/images/portfolio/work4.jpg);
+    background-image: url(./images/portfolio/work4.jpg);
    padding-right: 10px;
    width: 250px;
    height: 250px;
 }
 .imgb{
-    background-image: url(/images/portfolio/work3.jpg);
+    background-image: url(./images/portfolio/work3.jpg);
     padding-right: 10px;
     width: 250px;
    height: 250px;
   
 }
 .imgc{
-    background-image: url(/images/portfolio/work2.jpg);
+    background-image: url(./images/portfolio/work2.jpg);
     padding-right: 10px;
     width: 250px;
    height: 250px;
 }
 .imgd{
-    background-image: url(/images/portfolio/work1.jpg);
+    background-image: url(./images/portfolio/work1.jpg);
     padding-right: 20px;
     width: 250px;
    height: 250px;
@@ -118,32 +118,32 @@
     padding-top: 50px;
 }
 .imge{
-    background-image: url(/images/portfolio/work5.jpg);
+    background-image: url(./images/portfolio/work5.jpg);
     
     width: 250px;
    height: 250px;
 }
 .imgf{
-    background-image: url(/images/portfolio/work6.jpg);
+    background-image: url(./images/portfolio/work6.jpg);
     padding-right: 10px;
     width: 250px;
    height: 250px;
 }
 .imgg{
-    background-image: url(/images/portfolio/work7.jpg);
+    background-image: url(./images/portfolio/work7.jpg);
     padding-right: 10px;
     width: 250px;
    height: 250px;
 }
 .imgh{
-    background-image: url(/images/portfolio/work8.jpg);
+    background-image: url(./images/portfolio/work8.jpg);
     padding-right: 20px;
     width: 250px;
    height: 250px;
 }
 .section6{
     margin: 50px;
-    background-image: url(/images/backgrounds/c_image.jpg);
+    background-image: url(./images/backgrounds/c_image.jpg);
     /* background-size: cover; */
     color: white;
     text-align: center;
