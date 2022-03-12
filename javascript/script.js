@@ -54,4 +54,60 @@ $(document).ready(function(){
         event.preventDefault();
       })
     });
+    // $("p").hover(function(){
+    //     $(this).css("background-color", "yellow");
+    //     }, function(){
+    //     $(this).css("background-color", "grey");
+    //   });
+    $(document).ready(function(){
+        $("#work1").mouseover(function(){
+          $("#cover1").show();
+        }).mouseout(function(){
+          $("#cover1").hide();
+        });
+    });  
+    $(document).ready(function(){
+        $("#work2").mouseover(function(){
+          $("#cover2").show();
+        }).mouseout(function(){
+          $("#cover2").hide();
+        });
+    });
+    $(document).ready(function(){
+        $("#work3").mouseover(function(){
+          $("#cover3").show();
+        }).mouseout(function(){
+          $("#cover3").hide();
+        });
+    });    $(document).ready(function(){
+        $("#work4").mouseover(function(){
+          $("#cover4").show();
+        }).mouseout(function(){
+          $("#cover4").hide();
+        });
+    });    $(document).ready(function(){
+        $("#work5").mouseover(function(){
+          $("#cover5").show();
+        }).mouseout(function(){
+          $("#cover5").hide();
+        });
+    });    $(document).ready(function(){
+        $("#work6").mouseover(function(){
+          $("#cover6").show();
+        }).mouseout(function(){
+          $("#cover6").hide();
+        });
+    });    $(document).ready(function(){
+        $("#work7").mouseover(function(){
+          $("#cover7").show();
+        }).mouseout(function(){
+          $("#cover7").hide();
+        });
+    });    $(document).ready(function(){
+        $("#work8").mouseover(function(){
+          $("#cover8").show();
+        }).mouseout(function(){
+          $("#cover8").hide();
+        });
+    });      
 
