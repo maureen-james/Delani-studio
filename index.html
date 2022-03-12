@@ -1,27 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <!-- Font Awesome -->
-    <link
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-rel="stylesheet"
-/>
+<!-- Font Awesome
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">-->
 <!-- Google Fonts -->
-<link
-href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-rel="stylesheet"
-/>
-<!-- MDB -->
-<link
-href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css"
-rel="stylesheet"
-/>
+<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"> -->
+<!-- Bootstrap core CSS -->
+<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"> -->
+<!-- Material Design Bootstrap -->
+<!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet"> --> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delani studio</title>
     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/bootstrap.css"> 
 </head>
 <body>
 <div class="container">
@@ -31,7 +24,9 @@ rel="stylesheet"
        <h1>WELCOME</h1>
        <h2>TO DELANI STUDIO</h2>
        <h6>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h6>
-       <img src="./images/mouse_click.png" alt="" class="img1">
+       <div class="mouse-click"></div>
+       <a href="#section2"><img src="images/mouse_click.png" alt=" mouse_click" id="mouse-click"></a> 
+     </div>
      </div>
    </div> 
    <div class="section2">
@@ -51,8 +46,47 @@ rel="stylesheet"
        </p>
    </div>
    <div class="section4">
-       <h1>WHAT WE DO</h1>
-    <div class="threeimages">
+   <div class="container what-we-do">
+    <h2 class="headings">WHAT WE DO</h2>
+    <div class="row">
+        <div class="threeimages">
+      <div class="col-md-4">
+        <div id="design">
+            <h2 class="title">DESIGN</h2>
+            <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
+              <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+          </div>
+          <div id="design-image">
+            <img src="images/services_icons/design_icon.png" alt="design">
+            <p>DESIGN</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div id="development">
+            <h2 class="title">DEVELOPMENT</h2>
+            <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+               <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+          </div>
+          <div id="development-image">
+            <img src="images/services_icons/dev_icon.png" alt="development">
+            <P>DEVELOPMENT</P>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div id="product">
+            <h2 class="title">PRODUCT MANAGEMENT</h2>
+            <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+            <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+          </div>
+          <div id="product-image">
+            <img src="images/services_icons/product_icon.png" alt="products">
+            <P>PRODUCT MANAGEMENT</P>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="threeimages">
         <figure>
             <img src="./images/services_icons/design_icon.png" alt="">
          <figcaption>DESIGNS</figcaption>
@@ -66,22 +100,78 @@ rel="stylesheet"
         <figcaption>PRODUCT MANAGEMENT </figcaption>
     </figure>
     </div>
-   </div>
+   </div> -->
    <div class="section5">
        <h1>PORTFOLIO</h1>
-       <div class="firstline"> 
-           <img src="images/portfolio/work4.jpg" alt="" class="imga">
-           <img src="images/portfolio/work3.jpg" alt="" class="imgb">
-           <img src="images/portfolio/work2.jpg" alt="" class="imgc">
-           <img src="images/portfolio/work1.jpg" alt="" class="imgd">
-       
+
+    <div class="firstline"> 
+        <div class="row" id="portfolio">
+            <div class="col-md-3" id="work1">
+             <div class="imga">
+                   <img src="images/portfolio/work4.jpg" alt="" class="imga">
+                    <p id="overlay1"class="text">Black Studio</p>
+           </div>
+        </div>
+    </div>
+           <div class="row" id="portfolio">
+           <div class="col-md-3" id="work2">
+           <div class="imgb">
+              <img src="images/portfolio/work3.jpg" alt="" class="imgb">
+              <p id="overlay2" class="text">Ontario Security</p>
+        </div>
        </div>
-       <div class="secondline">
-        <img src="images/portfolio/work5.jpg" alt="" class="imge">
-        <img src="images/portfolio/work6.jpg" alt="" class="imgf">
-        <img src="images/portfolio/work7.jpg" alt="" class="imgg">
-        <img src="images/portfolio/work8.jpg" alt="" class="imgh">
+    </div>
+        <div class="row" id="portfolio">
+            <div class="col-md-3" id="work3">
+               <div class="imgc">
+                  <img src="images/portfolio/work2.jpg" alt="" class="imgc">
+                  <p id="overlay3"class="text">Pyramids</p>
+                </div>
+            </div>
+        </div>
+    <div class="row" id="portfolio">
+        <div class="col-md-3" id="work4">
+            <div class="imgd">
+              <img src="images/portfolio/work1.jpg" alt="" class="imgd">
+              <p id="overlay4" class="text">Jim Carry</p>
+            </div>
        </div>
+    </div>
+</div>
+    <div class="secondline">
+        <div class="row" id="portfolio">
+            <div class="col-md-3" id="work5">
+               <div class="imge">
+                 <img src="images/portfolio/work5.jpg" alt="" class="imge">
+                  <p id="overlay5" class="text">Have A Nice Day</p>
+                </div>
+            </div>
+        </div>
+    <div class="row" id="portfolio">
+        <div class="col-md-3" id="work6">
+           <div class="imgf"> 
+               <img src="images/portfolio/work6.jpg" alt="" class="imgf">
+                  <p id="overlay6"class="text">Calculator</p>
+            </div> 
+        </div>
+    </div>
+       <div class="row" id="portfolio">
+        <div class="col-md-3" id="work7">
+          <div class="imgg">
+            <img src="images/portfolio/work7.jpg" alt="" class="imgg">
+            <p id="overlay7" class="text">Burned</p>
+          </div>
+         </div>
+         </div>
+         <div class="row" id="portfolio">
+           <div class="col-md-3" id="work8">
+            <div class="imgh">
+               <img src="images/portfolio/work8.jpg" alt="" class="imgh">
+               <p id="overlay8" class="text">Giraffe Restaurant</p>
+             </div>
+           </div>
+          </div>
+    </div>
    </div>
    <div class="section6">
        <h1>CONTACT US</h1>
@@ -97,6 +187,7 @@ rel="stylesheet"
        </form>
 
    </div>
+   <footer>
    <div class="section7">
        <img src="images/social_icons/twitter.png" alt="">
        <img src="images/social_icons/dribble.png" alt="">
@@ -110,16 +201,15 @@ rel="stylesheet"
 
 
    </div>
-  </div>
+   <div class="delani">
+    <p>DELANI STUDIO</p>
+    <p>2019</p>
+   </div>
+  
+</footer>
+</div>
 </body>
-<footer class="bg-light text-center text-lg-start">
-    <!-- Copyright -->
-    <div class="text-center text-light p-3">
-      DELANI STUDIO <br> 2019
-      <a style="background-color: inherit;" class="text-light"></a>
-    </div>
-    <!-- Copyright -->
-  </footer>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/script.js"></script>
 </html>

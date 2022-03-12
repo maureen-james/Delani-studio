@@ -1,6 +1,19 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+
+}
+
 .section1{
     background-image: url(/images/backgrounds/h_img.jpg);
     background-attachment: fixed;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
    
 }
 .a{
@@ -20,7 +33,7 @@
     background-image: url(/images/backgrounds/s_image.jpg);
     text-align: center;
     color: white;
-    padding: 135px 5px 180px 150px;
+    padding: 135px 0px 180px 0px;
 }
 .section4{
     text-align: center;
@@ -28,12 +41,12 @@
 }
 .threeimages{
     display: flex;
-    justify-content: space-between;
     padding: 50px;
 }
 .section5{
     text-align: center;
     margin-right: 5px;
+    margin-left: 100px;
    
 }
 .firstline{
@@ -90,5 +103,8 @@
     background-color: transparent;
 }
 .section7{
-    padding-left: 450px;
+    padding-left: 120px;
+}
+.delani{
+    text-align: center;
 }
