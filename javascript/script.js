@@ -34,31 +34,7 @@ $(document).ready(function(){
       $(".product-image").show(500);
     });
 });
-// function validate(){
-//     var email = document.getElementById ("email");
-//     if(email.value(). == "")
-// }
-$(document).ready(function(){
-    $("form#submission").on('submit',function(event){
-        event.preventDefault();
-        let name = $("input:first").val();
-        let email = $("input#mail").val();
-        let message = $("textarea#message").val();
 
-        if ($("input:first").val() && $("input#mail").val()){
-            alert ( name + ",we have received your message. Thank you for reaching out to us.");
-        }
-        else {
-            alert("insert valid information");
-        }
-        event.preventDefault();
-      })
-    });
-    // $("p").hover(function(){
-    //     $(this).css("background-color", "yellow");
-    //     }, function(){
-    //     $(this).css("background-color", "grey");
-    //   });
     $(document).ready(function(){
         $("#work1").mouseover(function(){
           $("#cover1").show();

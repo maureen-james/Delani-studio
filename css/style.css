@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 *{
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    font-family: 'PT Serif', serif;
 }
 .col-md-12{
     padding-left: 0px ;
@@ -13,26 +15,23 @@
 .section1{
     background-image: url(/images/backgrounds/h_img.jpg);
     background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-repeat: repeat;
     background-position: center;
-    background-size: contain;
-    padding-left: 0px ;
-    padding-right: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    background-size: contain; */
+    width: 100%;
+   
    
 }
 .a{
     align-items: center;
     color: white;
-    padding-left: 350px;
-    padding-top: 400px;
-    padding-bottom: 300px;
+    padding: 400px 0px 300px 350px;
 }
-#mouse-click{
+.mouse-click{
     padding-top: 130px;
     animation: bounce 2s infinite;
+    transition: 2s;
 }
 .section2{
     text-align: center;
@@ -91,6 +90,9 @@
     width: 250px;
    height: 250px;
 }
+#cover1  #cover2 #cover3 #cover4 #cover5 #cover6 #cover7 #cover8{
+    display: none;
+}
 .secondline{
     flex-wrap: wrap;
     justify-content: center;
@@ -120,6 +122,7 @@
 .section6{
     margin: 50px;
     background-image: url(/images/backgrounds/c_image.jpg);
+    background-size: cover;
     color: white;
     text-align: center;
     padding-bottom: 20%;
