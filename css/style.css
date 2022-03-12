@@ -4,6 +4,7 @@
     padding: 0px;
     margin: 0px;
     font-family: 'PT Serif', serif;
+    font-size: 25px;
 }
 .col-md-12{
     padding-left: 0px ;
@@ -15,13 +16,6 @@
 .section1{
     background-image: url(/images/backgrounds/h_img.jpg);
     background-attachment: fixed;
-    /* background-size: cover; */
-    /* background-repeat: repeat;
-    background-position: center;
-    background-size: contain; */
-    width: 100%;
-   
-   
 }
 .a{
     align-items: center;
@@ -33,6 +27,17 @@
     animation: bounce 2s infinite;
     transition: 2s;
 }
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-55px);
+    }
+    60% {
+      transform: translateY(-45px);
+    }
+  }
 .section2{
     text-align: center;
 }
@@ -122,7 +127,7 @@
 .section6{
     margin: 50px;
     background-image: url(/images/backgrounds/c_image.jpg);
-    background-size: cover;
+    /* background-size: cover; */
     color: white;
     text-align: center;
     padding-bottom: 20%;
@@ -130,17 +135,28 @@
 }
 .forms{
     padding-top: 25px;
-    border-radius: 1px solid white;
+    
+    
 }
 #name{
     background-color: transparent;
-    color: whitesmoke;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+
 }
 #email{
     background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
 }
 #message{
     background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
 }
 .section7{
     padding-left: 500px;
