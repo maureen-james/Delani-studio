@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+}
+/* .col-md-12{
+    padding-left: 0px ;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+} */
+
+.section1{
+    background-image: url(/images/backgrounds/h_img.jpg);
+    background-attachment: fixed;
+}
+.a{
+    align-items: center;
+    color: white;
+    padding: 400px 0px 300px 350px;
+}
+.mouse-click{
+    padding-top: 130px;
+    animation: bounce 2s infinite;
+    transition: 2s;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-55px);
+    }
+    60% {
+      transform: translateY(-45px);
+    }
+  }
+.section2{
+    text-align: center;
+}
+.section3{
+    background-image: url(/images/backgrounds/s_image.jpg);
+    text-align: center;
+    color: white;
+    padding: 135px 0px 180px 0px;
+}
+.section4{
+    text-align: center;
+    margin: 50px;
+}
+.threeimages{
+    display: flex;
+    padding: 50px;
+}
+.design{
+    display: none;
+}
+.development{
+    display: none;
+}
+.product {
+    display: none;
+}
+.section5{
+    text-align: center;
+    margin: 30px auto;
+   
+   
+}
+.firstline{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.text{
+    background-color: rgb(192, 189, 194);
+    height: 100%;
+    width: 250px;
+}
+.imga{
+    background-image: url(/images/portfolio/work4.jpg);
+   padding-right: 10px;
+   width: 250px;
+   height: 250px;
+}
+.imgb{
+    background-image: url(/images/portfolio/work3.jpg);
+    padding-right: 10px;
+    width: 250px;
+   height: 250px;
+  
+}
+.imgc{
+    background-image: url(/images/portfolio/work2.jpg);
+    padding-right: 10px;
+    width: 250px;
+   height: 250px;
+}
+.imgd{
+    background-image: url(/images/portfolio/work1.jpg);
+    padding-right: 20px;
+    width: 250px;
+   height: 250px;
+}
+#cover1  #cover2 #cover3 #cover4 #cover5 #cover6 #cover7 #cover8{
+    display: none;
+}
+#portfolio.row{
+    padding-right: 10px;
+}
+.secondline{
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+}
+.imge{
+    background-image: url(/images/portfolio/work5.jpg);
+    
+    width: 250px;
+   height: 250px;
+}
+.imgf{
+    background-image: url(/images/portfolio/work6.jpg);
+    padding-right: 10px;
+    width: 250px;
+   height: 250px;
+}
+.imgg{
+    background-image: url(/images/portfolio/work7.jpg);
+    padding-right: 10px;
+    width: 250px;
+   height: 250px;
+}
+.imgh{
+    background-image: url(/images/portfolio/work8.jpg);
+    padding-right: 20px;
+    width: 250px;
+   height: 250px;
+}
+.section6{
+    margin: 50px;
+    background-image: url(/images/backgrounds/c_image.jpg);
+    /* background-size: cover; */
+    color: white;
+    text-align: center;
+    padding-bottom: 20%;
+    padding-top: 25px;
+}
+.forms{
+    padding-top: 25px;
+}
+#name{
+    background-color: transparent;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+
+}
+#email{
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+}
+#message{
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+}
+
+.section7{
+    padding-left: 500px;
+}
+.delani{
+    text-align: center;
+}
+/* media responsiveness */
+/* extra large => 1200px */
+@media(max-width: 1399px){
+#portfolio.row{
+    width: 235px;
+}
+.section7{
+    padding-left: 350px; 
+}
+}
+@media(min-width: 1200px){
+.a{
+    padding: 350px 0px 250px 300px;
+}
+}
+/* large screen */
+@media(max-width: 960px){
+.a{
+    padding: 250px 0px 150px 200px;
+}
+.section7{
+    padding-left: 80px;
+}
+}
+/* medium and small screen */
+@media(max-width: 720px){
+    .a{
+        padding: 200px 0px 100px 100px;
+    }
+    .threeimages{
+        flex-direction: column;
+    }
+    .firstline{
+        flex-direction: column;
+        align-items: center;
+    }
+    .secondline{
+        flex-direction: column;
+        align-items: center;
+    }
+    .imga .imgb .imgc .imgd .imge .imgf .imgh{
+        padding-top: 10px;
+    }
+    .section6{
+        align-items: center;
+    }
+}
+
+
+
+
+
